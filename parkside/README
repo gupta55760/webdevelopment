@@ -10,12 +10,12 @@ $ source venv/bin/activate
 $ pip install selenium
 
 2. To run tests
-Modify value of "browser" in conf.json to indicate the browser on which tests are top be executed
-Use the values "Firefox" or "Chrome"
 $ cd /tmp
 $ git clone https://github.com/gupta55760/webdevelopment.git 
 $ cd webdevelopment
 $ git checkout parkside
 $ cd parkside
+Modify value of "browser" in conf.json to indicate the browser on which tests are to be executed
+Use the values "Firefox" or "Chrome"
 $ source run_script.sh 
 
