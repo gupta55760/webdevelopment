@@ -1,0 +1,18 @@
+
+1. Setup - Run the tests in a virtual environment
+Install chromedriver and geckodriver on localhost
+$ cd /tmp
+$ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py
+$ python get-pip.py
+$ pip install virtualenv
+$ python -m virtualenv venv
+$ source venv/bin/activate
+$ pip install selenium
+
+$ cd /tmp
+$ git clone https://github.com/gupta55760/webdevelopment.git 
+$ cd webdevelopment
+$ git checkout parkside
+$ cd parkside
+$ source run_script.sh 
+
